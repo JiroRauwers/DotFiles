@@ -6,10 +6,12 @@
 
 - link:
     ~/.zshrc: zshrc
-    ~/.bashrc: bashrc
+    ~/.config/nvim:
+      path: nvim
+      force: true
 
 - create:
-    - ~/downloads
+    - ~/Downloads
     - ~/.vim/undo-history
 
 - shell:

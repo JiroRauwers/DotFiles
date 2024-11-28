@@ -23,14 +23,9 @@ zi light-mode for \
 zi ice depth=1; zi light romkatv/powerlevel10k
 
 alias ls=exa
-
-
-
-
-
-
-
-
+alias ll="exa -l $1"
+alias la="exa -a $1"
+alias lla="exa -la $1"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
