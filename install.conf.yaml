@@ -10,11 +10,13 @@
       path: nvim
       force: true
     ~/.config/i3: i3
-    ~/.config/picom/: picom
+    ~/.config/picom: picom
+    ~/.config/kitty: kitty
+    ~/.config/rofi: rofi
+
 
 - create:
     - ~/Downloads
-    - ~/.vim/undo-history
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
