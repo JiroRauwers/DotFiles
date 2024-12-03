@@ -1,0 +1,36 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc: 
+      path: zshrc
+      force: true
+    
+    ~/.config/nvim:
+      path: nvim
+      force: true
+    
+    ~/.config/i3: 
+      path: i3
+      force: true
+    
+    ~/.config/picom: 
+      path: picom
+      force: true
+
+    ~/.config/kitty:
+      path: kitty
+      force: true
+    
+    ~/.config/rofi:
+      path: rofi
+      force: true
+
+- create:
+    - ~/Downloads
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
