@@ -2,35 +2,39 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-    ~/.zshrc: 
+    ~/.zshrc:
       path: zshrc
       force: true
-    
+
     ~/.config/nvim:
       path: nvim
       force: true
-    
-    ~/.config/i3: 
+
+    ~/.config/i3:
       path: i3
       force: true
-    
-    ~/.config/picom: 
+
+    ~/.config/picom:
       path: picom
       force: true
 
     ~/.config/kitty:
       path: kitty
       force: true
-    
+
     ~/.config/rofi:
       path: rofi
+      force: true
+
+    ~/.config/eww:
+      path: eww
       force: true
 
 - create:
     - ~/Downloads
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
