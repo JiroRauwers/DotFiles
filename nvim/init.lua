@@ -1,3 +1,2 @@
-require('jiro.core.keymaps')
-require('jiro.core.options')
-require('jiro.lazy')
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
