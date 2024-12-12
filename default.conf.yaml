@@ -29,9 +29,9 @@
       path: rofi
       force: true
 
-    ~/.config/eww:
-      path: eww
-      force: true
+    #~/.config/eww:
+    #  path: eww
+    #  force: true
 
 - create:
     - ~/Downloads
